@@ -9,7 +9,7 @@ string[] RuinArray(string[] array){
 int len;
 if(array.Length <= 3){len = array.Length;}
 else{len = 3;}
-string[] newArray = new string[Any.Next(0, len)];
+string[] newArray = new string[Any.Next(0, len+1)];
 for(int i = 0; i < newArray.Length; i++){
     int s = Any.Next(0, array.Length);
     string expect = "";
